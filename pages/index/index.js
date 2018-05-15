@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-    motto: '您好，',
+    motto: '九八朝廷 2018',
     menus: ['我的家族', '最近更新'],
     userInfo: {},
     hasUserInfo: false,

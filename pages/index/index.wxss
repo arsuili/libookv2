@@ -17,6 +17,7 @@
 }
 
 .usermotto {
+  font-size: 12px;
   margin-top: 200px;
 }
 .container{ background-color:#ffa; }

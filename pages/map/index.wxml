@@ -1,2 +1,2 @@
 <!--pages/map/index.wxml-->
-<text>pages/map/index.wxml</text>
+<canvas style="width: 300px; height: 200px;" canvas-id="firstCanvas"></canvas>
