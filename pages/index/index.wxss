@@ -19,3 +19,6 @@
 .usermotto {
   margin-top: 200px;
 }
+.container{ background-color:#ffa; }
+.menu{ color: #333; width: 100%;  margin-top: 40rpx;}
+.menu_item{width:150rpx; margin:10rpx; height: 30rpx;float: left; }

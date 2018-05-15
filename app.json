@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/search/index"
+    "pages/search/index",
+    "pages/map/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -11,14 +12,28 @@
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
+    "backgroundColor": "#ee9",
+    "selectedColor": "#900",
+    "borderStyle": "black",
+    "color": "#999",
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "主 页"
+        "text": "主 页",
+        "iconPath": "image/home2.png",
+        "selectedIconPath": "image/home.png"
       },
       {
         "pagePath": "pages/search/index",
-        "text": "查 询"
+        "text": "查 询",
+        "iconPath": "image/search2.png",
+        "selectedIconPath": "image/search.png"
+      },
+      {
+        "pagePath": "pages/map/index",
+        "text": "图 谱",
+        "iconPath": "image/map2.png",
+        "selectedIconPath": "image/map.png"
       }
     ]
   },
